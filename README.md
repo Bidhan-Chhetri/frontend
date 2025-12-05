@@ -87,5 +87,3 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 =======
-# frontend
->>>>>>> d0ffcbb7920e366915df0c5e3920e33241167213
