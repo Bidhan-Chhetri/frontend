@@ -1,12 +1,13 @@
 body {
         background-color: aliceblue;
-        height: 90vh;
+        height: 95vh;
         width: 95vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 1rem;
+        gap: 1rem;
       }
       .QR {
         display: flex;
@@ -16,10 +17,12 @@ body {
         border: 0px solid black;
         background-color: white;
         width: 18rem;
-        height: 30rem;
-        padding: 0.8rem;
+        height: 31rem;
+        padding: 1rem;
         border-radius: 5%;
         opacity: 1.899;
+        line-height: 1rem;
+        margin: auto;
       }
       .QR h1 {
         font-size: 1.1rem;
@@ -28,6 +31,7 @@ body {
         text-align: center;
         padding: 1rem 1rem 0 1rem;
         opacity: 0.8;
+        line-height: 1.2rem;
       }
       .QR p {
         font-size: 0.9rem;
@@ -37,6 +41,7 @@ body {
         color: black;
         opacity: 0.5;
         padding: 0 1rem 1rem 1rem;
+        line-height: 1.1rem;
       }
       .qr-image {
         display: flex;
@@ -47,15 +52,14 @@ body {
       }
       .qr-image img {
         width: 18rem; 
-        height: 18rem; 
+        height: 21rem; 
         border-radius: 0.5rem;
       }
       .attribution {
         font-size: 14px;
         text-align: center;
-        margin-top: 1rem;
         width: 100%;
       }
-      .attribution a {
+     .attribution a {
         color: hsl(228, 45%, 44%);
       }
